@@ -1,0 +1,220 @@
+body {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+}
+:root {
+  --clr-back: hsl(185, 41%, 84%);
+  --clr-back-content: hsl(0, 0%, 100%);
+  --clr-inp: hsl(184, 14%, 56%);
+  --clr-button: hsl(183, 100%, 15%);
+  --clr-display: hsl(172, 67%, 45%);
+  --clr-reset: hsl(186, 14%, 43%);
+}
+html {
+  background-color: black;
+}
+.maincontainer {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+.container {
+  width: 850px;
+  height: 550px;
+  background-color: var(--clr-back);
+  margin-left: 200px;
+  margin-top: 50px;
+}
+h4 {
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--clr-back-content);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 10px 25px;
+}
+.content {
+  margin: 15px 10px;
+  padding: 5px 10px;
+}
+.calc {
+  width: 500px;
+}
+.amount {
+  background-color: var(--clr-button);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 30px 25px;
+  padding: 0px 30px;
+  color: white;
+}
+
+.billamount {
+  width: 250px;
+  height: 28px;
+  background-color: var(--clr-back);
+  border: none;
+  border-radius: 3px;
+  text-align: right;
+  justify-content: right;
+}
+.people {
+  width: 250px;
+  height: 28px;
+  background-color: var(--clr-back);
+  border: none;
+  border-radius: 3px;
+  text-align: right;
+  justify-content: right;
+}
+.people-count {
+  position: relative;
+  bottom: 50px;
+}
+.discountbutton {
+  padding: 3px 3px;
+}
+.five {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.ten {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.fifteen {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  color: white;
+
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.twenty {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  bottom: 15px;
+  color: white;
+  padding: 3px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.fifty {
+  background-color: var(--clr-button);
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  bottom: 15px;
+  color: white;
+  padding: 3px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.Custom {
+  background-color: var(--clr-back);
+  border: none;
+  border-radius: 3px;
+  color: var(--clr-inp);
+  position: relative;
+  bottom: 50px;
+  left: 150px;
+  padding: 3px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.button {
+  padding: 10px 2px;
+}
+.button1 {
+  padding: 10px 2px;
+}
+.clear {
+  margin-left: 10px;
+  background-color: var(--clr-reset);
+  border: none;
+  width: 350px;
+  border-radius: 3px;
+  color: var(--clr-button);
+  font-size: 20px;
+  position: relative;
+  bottom: 25px;
+  left: 15px;
+}
+.total {
+  position: relative;
+
+  left: 200px;
+  bottom: 70px;
+  color: var(--clr-display);
+  font-size: 40px;
+}
+
+.tip {
+  position: relative;
+  left: 200px;
+  bottom: 70px;
+  color: var(--clr-display);
+  font-size: 40px;
+}
+.display {
+  padding-top: 30px;
+}
+.billicon i {
+  position: absolute;
+}
+.usericon i {
+  position: absolute;
+}
+.usericon {
+  width: 100%;
+}
+
+.billicon {
+  width: 100%;
+}
+
+.icon {
+  padding: 10px 10px;
+}
+#error {
+  position: relative;
+  left: 40px;
+  font-size: 10px;
+}
+#error1 {
+  position: relative;
+  left: 5px;
+  font-size: 7px;
+}
